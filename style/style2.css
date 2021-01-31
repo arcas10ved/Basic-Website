@@ -1,0 +1,40 @@
+*{font-family: 'Cabin', sans-serif;
+}
+
+
+header{
+    padding: 10px;
+    height: 300px;
+    background-color: #59fffd;
+}
+h1{
+   
+    font-size:120px;
+}
+main{
+    max-width:1200px;
+    margin: auto;
+}
+main figure{
+    background-color: white;
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    position: relative;
+    overflow: hidden;
+  
+}
+main figure.last{
+    margin-right: 0;
+}
+main figure img{
+    width: 100%;
+}
+main figure figcaption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    width: 100%;
+}
+
